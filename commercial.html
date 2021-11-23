@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>WeatherMakers · HVAC Icon Animations (Commercial) </title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name=“handheldfriendly” content=“true”>
+  <meta name=“mobileoptimized” content=“true”>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Adding hover states to SVGs</h1>
+    <p>WeatherMakers HVAC CSS Animations — Commercial</p>
+  </header>
+  
+  <main>
+    <!-- This is a general image embed for this brand's SVG icon-->
+    <h2>This is the embedded, static SVG file</h2>
+    <div class="blue-container">
+      <p>This should be used as the default state, and should NOT autoanimate on page load; the motion component is exclusively intended for hover interactivity for each icon section.</p>
+      <img class="icon" src="images/commercial.svg" alt="HVAC plumbing icon depicting a water drop and 2 ripples">
+    </div>
+    <h2>This is the SVG file written into HTML, with CSS transitions</h2>
+
+    <!--The same SVG code, but brought directly into the HTML file, making the id elements directly targetable in the CSS. This is only easily doable when the exported SVG has properly named layers. Since the particular interativity requested was a hover state, and not a looping animation, transitions will be used instead of keyframes-->
+    <div class="slate-container">
+      <p>Hover anywhere in this card to see the SVG animation play out. Ideally, this interactivity will exist when any part of the relevant services section is selected.</p>
+      <svg class="icon" id="plumbing" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 523.8 523.8">
+        <polyline id="commercial-1" points="16.9 278.7 16.9 304.4 506.6 304.4 506.6 278.7" fill="none" stroke="#21368E" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+        <polyline id="commercial-2" points="16.9 279.6 16.9 253.9 506.6 253.9 506.6 279.6" fill="none" stroke="#21368E" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+        <path id="commercial-3" d="M506.6,279.6v24.8h-37V418.3c-.6,19.1-10.4,26.1-25.6,25.6H79.5c-15.3.5-25-6.5-25.6-25.6V304.4h-37V279.6" fill="none" stroke="#21368E" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+        <polyline id="commercial-4" points="239.1 206.7 274.5 206.7 274.5 253.9" fill="none" stroke="#21368E" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/><polyline points="310 206.7 274.5 206.7 274.5 253.9" fill="none" stroke="#21368E" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+        <polyline id="commercial-5" points="159.4 253.9 122.5 253.9 122.5 148.1 54.5 148.1 87.8 100.6 190.6 100.6 190.6 148.1 158.7 148.1 158.7 252.8" fill="none" stroke="#21368E" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+        <polyline id="commercial-6" points="159.4 253.9 122.5 253.9 122.5 148.1 54.5 148.1 87.8 100.6 190.6 100.6 190.6 148.1 158.7 148.1 122.8 148.1" fill="none" stroke="#21368E" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+        <path id="commercial-7" d="M425.3,253.9V206.7c19.2-10.3,31.3-25.6,35-46.7V134.5c-2.5-19.6-13.6-32.1-35.5-35.4v49c-.9,8.1-5.5,11.9-12.5,12.5h-7.9c-7-.6-11.6-4.4-12.6-12.5v-49c-21.9,3.3-32.9,15.8-35.4,35.4V160c3.7,21.1,15.7,36.4,35,46.7v47.2" fill="none" stroke="#21368E" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+        <path id="commercial-8" d="M274.5,206.7h24.8V100.6c-1-7.3-4.6-12-12.5-12.5H262.3c-7.9.5-11.5,5.2-12.5,12.5V206.7h24.7v47.2" fill="none" stroke="#21368E" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+      </svg>
+    </div>
+
+    <div class="general-container">
+      <a href="plumbing.html">Previous Icon Animation</a>
+      <a href="index.html">Next Icon Animation</a>
+    </div>
+  </main>
+  
+  <footer>
+    <p><small>Brought to you by MacKenzie · 2021</small></p>
+    <!-- <img class="footer-icon" src="favicon-196.png" alt="MK Design Icon"> -->
+  </footer>
+</body>
+</html>

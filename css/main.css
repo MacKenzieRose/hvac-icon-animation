@@ -96,7 +96,7 @@ img.footer-icon {
 /* END STYLING PAGE ELEMENTS */
 /* START INTERACTIVE SVG CODE */
 
-/* Set the dash array for the air & plumbing icons*/
+/* Set the dash array for the air & plumbing & commercial icons*/
 div.slate-container:hover,
 div.slate-container:active  {
   stroke-dasharray: 1000;
@@ -110,7 +110,7 @@ div.fire-container:active {
   stroke-dashoffset: 2000;
 }
 
-/* Define the animation for the air & plumbing icons */
+/* Define the animation for the air & plumbing & commercial icons */
 #air-1,
 #air-2,
 #air-3,
@@ -118,7 +118,15 @@ div.fire-container:active {
 #plumbing-1,
 #plumbing-2,
 #plumbing-3,
-#plumbing-4 {
+#plumbing-4,
+#commercial-1,
+#commercial-2,
+#commercial-3,
+#commercial-4,
+#commercial-5,
+#commercial-6,
+#commercial-7,
+#commercial-8 {
   animation: hoverloop 3s ease-in-out forwards infinite;
 }
 
@@ -128,7 +136,7 @@ div.fire-container:active {
   animation: hoverloop2 4.4s ease-in-out forwards infinite;
 }
 
-/* Define the start, mid, and end keyframes for the air & plumbing icon animations */
+/* Define the start, mid, and end keyframes for the air & plumbing & commercial icon animations */
 @keyframes hoverloop {
   0% {
     stroke-dashoffset: 1000;
