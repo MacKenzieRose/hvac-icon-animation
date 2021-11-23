@@ -93,8 +93,8 @@ img.footer-icon {
 /* START INTERACTIVE SVG CODE */
 
 /* Set the dash array for the air icons*/
-svg:hover,
-svg:active  {
+div.slate-container:hover,
+div.slate-container:active  {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
 }
