@@ -47,16 +47,19 @@ a:focus {
 
 div.blue-container,
 div.slate-container,
-div.general-container {
+div.general-container,
+div.fire-container {
   display: flex;
   border: darkblue 1px solid;
   justify-content: space-between;
   padding: 2rem;
 }
 
-div.slate-container {
+div.slate-container,
+div.fire-container {
   border: #111 1px solid;
 }
+
 
 div.general-container {
   margin-top: 2rem;
@@ -68,7 +71,8 @@ div.general-container {
 }
 
 div.blue-container > p,
-div.slate-container > p {
+div.slate-container > p,
+div.fire-container > p {
   color: #676767;
   max-width: 24rem;
 }
@@ -99,6 +103,13 @@ div.slate-container:active  {
   stroke-dashoffset: 1000;
 }
 
+/* Define stroke array for furnace icon */
+div.fire-container:hover,
+div.fire-container:active {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+}
+
 /* Define the animation for the air icons */
 #air-1,
 #air-2,
@@ -107,7 +118,13 @@ div.slate-container:active  {
   animation: hoverloop 3s ease-in-out forwards infinite;
 }
 
-/* Define the start, mid, and end keyframes for the icon animation */
+/* Define the animation for furnaces */
+#furnace-1,
+#furnace-2 {
+  animation: hoverloop2 4.4s ease-in-out forwards infinite;
+}
+
+/* Define the start, mid, and end keyframes for the air icon animation */
 @keyframes hoverloop {
   0% {
     stroke-dashoffset: 1000;
@@ -119,6 +136,21 @@ div.slate-container:active  {
 
   100% {
     stroke-dashoffset: -1000;
+  }
+}
+
+/* Define the start, mid, and end keyframes for the furnace icon animation */
+@keyframes hoverloop2 {
+  0% {
+    stroke-dashoffset: 2000;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: -2000;
   }
 }
 
