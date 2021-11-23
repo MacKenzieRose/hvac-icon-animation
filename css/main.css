@@ -63,7 +63,7 @@ div.general-container {
   border: none;
 }
 
-.air-icon {
+.icon {
   max-width: 150px;
 }
 
@@ -92,14 +92,14 @@ img.footer-icon {
 /* END STYLING PAGE ELEMENTS */
 /* START INTERACTIVE SVG CODE */
 
-/* Set the hover transition speed and easing */
+/* Set the dash array for the air icons*/
 svg:hover,
 svg:active  {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
 }
 
-/* Manually adjust the size and position of the winking eye to look natural */
+/* Define the animation for the air icons */
 #air-1,
 #air-2,
 #air-3,
@@ -107,6 +107,7 @@ svg:active  {
   animation: hoverloop 3s ease-in-out forwards infinite;
 }
 
+/* Define the start, mid, and end keyframes for the icon animation */
 @keyframes hoverloop {
   0% {
     stroke-dashoffset: 1000;
