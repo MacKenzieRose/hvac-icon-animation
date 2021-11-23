@@ -45,6 +45,7 @@ a:focus {
   color: #B30036;
 }
 
+div.blue-container,
 div.slate-container,
 div.general-container {
   display: flex;
