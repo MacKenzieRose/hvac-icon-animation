@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>WeatherMakers · HVAC Icon Animations (A/C) </title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name=“handheldfriendly” content=“true”>
+  <meta name=“mobileoptimized” content=“true”>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Adding hover states to SVGs</h1>
+    <p>WeatherMakers HVAC CSS Animations — Air Conditioning</p>
+  </header>
+  
+  <main>
+    <!-- This is a general image embed for this brand's SVG icon-->
+    <h2>This is the embedded, static SVG file</h2>
+    <div class="blue-container">
+      <p>This should be used as the default state, and should NOT autoanimate on page load; the motion component is exclusively intended for hover interactivity for each icon section.</p>
+      <img class="icon" src="images/ac.svg" alt="HVAC plumbing icon depicting a water drop and 2 ripples">
+    </div>
+    <h2>This is the SVG file written into HTML, with CSS transitions</h2>
+
+    <!--The same SVG code, but brought directly into the HTML file, making the id elements directly targetable in the CSS. This is only easily doable when the exported SVG has properly named layers. Since the particular interativity requested was a hover state, and not a looping animation, transitions will be used instead of keyframes-->
+    <div class="ac-container">
+      <p>Hover anywhere in this card to see the SVG animation play out. Ideally, this interactivity will exist when any part of the relevant services section is selected.</p>
+      <svg class="icon" id="ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <line id="ac-1" x1="256" y1="255.6" x2="256" y2="15" fill="#fff" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 256 144 309 109" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 256 144 203 109" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 256 67.1 309 32.1" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 256 67.1 203 32.1" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <line id="ac-1" x1="256" y1="255.6" x2="256" y2="496.2" fill="#fff" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 256 367.2 309 402.2" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 256 367.2 203 402.2" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 256 444.1 309 479.1" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 256 444.1 203 479.1" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <line id="ac-1" x1="256" y1="255.6" x2="46.7" y2="137" fill="#fff" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 158.9 200.6 154.6 137.2" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 158.9 200.6 102.3 229.4" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 92 162.7 87.6 99.3" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 92 162.7 35.4 191.5" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <line id="ac-1" x1="256" y1="255.6" x2="465.3" y2="374.2" fill="#fff" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 353.1 310.6 409.7 281.8" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 353.1 310.6 357.4 374" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 420 348.5 476.6 319.7" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 420 348.5 424.4 411.9" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <line id="ac-1" x1="256" y1="255.6" x2="465.3" y2="137" fill="#fff" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 353.1 200.6 357.4 137.2" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 353.1 200.6 409.7 229.4" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 420 162.7 424.4 99.3" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 420 162.7 476.6 191.5" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <line id="ac-1" x1="256" y1="255.6" x2="46.7" y2="374.2" fill="#fff" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 158.9 310.6 102.3 281.8" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 158.9 310.6 154.6 374" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 92 348.5 35.4 319.7" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+        <polyline id="ac-1" points="256 255.6 92 348.5 87.6 411.9" fill="none" stroke="#15B7ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+      </svg>
+    </div>
+
+    <div class="general-container">
+      <a href="commercial.html">Previous Icon Animation</a>
+      <a href="index.html">Next Icon Animation</a>
+    </div>
+  </main>
+  
+  <footer>
+    <p><small>Brought to you by MacKenzie · 2021</small></p>
+    <!-- <img class="footer-icon" src="favicon-196.png" alt="MK Design Icon"> -->
+  </footer>
+</body>
+</html>
