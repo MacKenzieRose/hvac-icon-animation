@@ -70,8 +70,8 @@ div.general-container {
 
 .icon {
   max-width: 150px;
-  width: auto;
-  height: auto;
+  width: 150px;
+  height: 150px;
 }
 
 div.blue-container > p,
