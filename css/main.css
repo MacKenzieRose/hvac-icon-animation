@@ -70,6 +70,8 @@ div.general-container {
 
 .icon {
   max-width: 150px;
+  width: auto;
+  height: auto;
 }
 
 div.blue-container > p,
@@ -116,8 +118,8 @@ div.fire-container:active {
 /* Define stroke array for ac icon */
 div.ac-container:hover,
 div.ac-container:active {
-  stroke-dasharray: 400;
-  stroke-dashoffset: 400;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
 }
 
 /* Define the animation for the air & plumbing & commercial icons */
@@ -184,7 +186,7 @@ div.ac-container:active {
 /* Define the start, mid, and end keyframes for the furnace icon animation */
 @keyframes hoverloop3 {
   0% {
-    stroke-dashoffset: 400;
+    stroke-dashoffset: 500;
   }
 
   50% {
@@ -192,7 +194,7 @@ div.ac-container:active {
   }
 
   100% {
-    stroke-dashoffset: -400;
+    stroke-dashoffset: -500;
   }
 }
 
